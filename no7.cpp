@@ -31,13 +31,13 @@ int* getPrime(int n) {
 main() {
 	int n;
 	
-	cout<<"Masukkan n prima: ";
+	cout<<"Masukkan n: ";
 	cin>>n;
 	
 	//Memanggil fungsi untuk mendapatkan bilagan prima
 	int* prima = getPrime(n);
 	
-	cout<<endl<<"List bilangan prima:"<<endl;
+	cout<<endl<<"Hasilnya: "<<endl;
 	
 	//Menampilkan hasil
 	for(int i = 0; i < n; i++) {
